@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* borders */
+
+.border-right {
+    border: 4px #a10613 solid;
+    height: 350px;
+    border-radius: 0 175px 175px 0;
+}
+
+.border-left {
+    border: 4px #a10613 solid;
+    height: 350px;
+    border-radius: 175px 0 0 175px;
+}
+
+/* colors STP */
+
+.bg-stp {
+    background-color: #a10613;
+}
+
+.color-stp {
+    color: #920808;
+}
+
+/* section header */
+
+.nav .logo img {
+    width: 7%;
+}
+
+
+.text-logo {
+    font-family: 'David Libre', serif;
+}
+
+
+.stp-AC span a:hover {
+    color: #a10613 !important;
+}
+
+.stp-AC span:hover {
+    background-color: aliceblue;
+}
+
+
+/* section Engineering workshops */
+.header-eng h2 {
+    color: #a10613;
+    font-size: 35px;
+    position: relative;
+    border: 3px solid #a10613;
+}
+
+.header-eng h2::before {
+    width: 3px;
+    height: 90px;
+    background-color: rgb(139, 22, 22);
+    position: absolute;
+    top: -95px;
+    content: '';
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.w-60 {
+    width: 65%;
+}
+
+.line-color {
+    width: 50%;
+    background-color: #a10613;
+    color: #a10613;
+    height: 5px;
+}
+
